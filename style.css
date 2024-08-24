@@ -1,0 +1,76 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E7F0DC;   
+}
+.main-container{
+    max-width: 440px;
+    padding: 20px;
+    margin: 170px auto;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.container .title{
+    background-color:rgb(233,196,106);
+    line-height: 3;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-size: 25px;
+}
+.container form{
+    padding: 20px;
+}
+form .row{
+    margin-bottom: 15px;
+    height: 35px;
+}
+form .pass{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+form .pass a{
+    text-decoration: none;
+    color: rgb(244, 162, 97);
+}
+form .pass a:hover{
+    color: rgb(231, 111, 81);
+}
+form .row input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+form .btn input{
+    padding-left: 0px;
+    border: none;
+    background-color: rgb(233,196,106);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.25s;
+}
+form .btn input:hover{
+    background-color: rgb(231, 111, 81);
+}
+form .sign{
+    font-size: 15px;
+    text-align: center;
+}
+form .sign a{
+    color: rgb(244, 162, 97);
+}
+form .sign a:hover{
+    color: rgb(231, 111, 81);
+}
